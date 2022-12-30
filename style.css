@@ -163,6 +163,7 @@ h4{
 
 .button{
     background-color: lightseagreen;
+    /* background-color: orange; */
     padding: 13px 30px;
     color:white;
     font-weight: bold;
@@ -201,8 +202,8 @@ h4{
     height: 390px;
     width:365px;
     background-color: #191919;
-    padding: 20px 35px;
-    margin: 20px;
+    padding: 10px 35px;
+    margin: 10px;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
@@ -210,8 +211,9 @@ h4{
 
 .card i{
     color: lightseagreen;
+    /* color:orange; */
     font-size: 50px;
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
 h5{
@@ -228,13 +230,13 @@ h5{
 }
 
 .card .button {
-    background-color: lightseagreen;
+    background-color:green;
     text-decoration: none;
     padding: 13px 30px;
     color: white;
     font-weight: bold;
     border-radius: 30px;
-    border: 2px solid green;
+    border: 2px solid black;
     transition: all 0.3s;
 }
 
@@ -262,7 +264,7 @@ h5{
 }
 
 .contact .contact-button{
-        background-color: lightseagreen;
+        background-color:green;
         text-decoration: none;
         padding: 13px 30px;
         color: white;
