@@ -13,7 +13,7 @@ body{
 
 .contact-form{
     border: 1px solid black;
-    padding: 50px 40px;
+    padding: 30px 40px;
 }
 
 .title{
@@ -65,7 +65,24 @@ textarea{
 }
 
 .button-area{
+    
     text-align: center;
+}
+
+.backbutton{
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 30px;
+    padding: 10px;
+    transition: all 0.4s;
+}
+
+.backbutton:hover {
+    transform: scale(1.2);
+    border-radius: 20px;
 }
 
 .submit{
@@ -79,5 +96,10 @@ textarea{
     margin: 0 5px;
     box-shadow: 1px 1px 3px black;
     cursor: pointer;
+    transition: all 0.4s;
 }
 
+.submit:hover {
+    transform: scale(1.2);
+    border-radius: 20px;
+}
