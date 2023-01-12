@@ -9,8 +9,14 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-color: #101010;
+    background-color: #080808;
 }
+
+/* .link{
+    color: white;
+    border-bottom: 3px solid #0000EE;
+
+} */
 
 nav{
     display: flex;
@@ -43,7 +49,14 @@ nav ul li a{
     transition:all 0.4s;
 }
 
-nav ul li a:hover{
+.link{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    transition: all 0.4s;
+}
+
+a:hover{
     color:lightseagreen;
 }
 
