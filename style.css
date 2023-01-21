@@ -195,6 +195,15 @@ h4{
     cursor: pointer;
 }
 
+.multiButton{
+    display: flex;
+
+}
+
+.multiButton p{
+    font-size: 14px;
+}
+
 .portfolio{
     background-color: #101010;
     width: 100%;
