@@ -210,6 +210,15 @@ h4{
     padding: 100px 0;
 }
 
+.portfolio nav{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.active{
+    display: block !important;
+}
+
 .title h2{
     color:white;
     font-size: 75px;
