@@ -197,12 +197,16 @@ h4{
 
 .multiButton{
     display: flex;
-
+    justify-content: center;
+    margin-bottom: 40px;
+    
 }
 
 .multiButton p{
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
 }
+
 
 .portfolio{
     background-color: #101010;
