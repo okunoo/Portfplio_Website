@@ -17,6 +17,11 @@
     transition: all 0.4s;
 }
 
+.backbutton:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
 nav ul{
     display: flex;
     padding: 10px 10% 0 10px;
