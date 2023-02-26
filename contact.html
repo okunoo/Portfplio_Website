@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>ContactPage</title>
+</head>
+
+<body>
+   <div class = "contact-form">
+        <button class = "backbutton"><a href="index.html">サイトに戻る</a></button>
+        <p class = "title"> お問合わせ</p>
+        <form action="https://api.staticforms.xyz/submit" method = "post">
+            <input type="hidden" name="accessKey" value="7233381a-6480-476e-a76a-eb362723f580">
+            <div class = "item">
+                <label class="label">氏名</label>
+                <input type="text" class = "input" name = "name" required>
+            </div>
+
+            <div class="item">
+                <label class="label">メールアドレス</label>
+                <input type="email" class="input" name="email" id = "email required"  required/>
+            </div>
+
+            <div class="item">
+                <label class="label">お問合せ内容</label>
+                <textarea class = "input" name = "message" placeholder="ここにお問合わせ内容を入力してください" required></textarea>
+            </div>
+
+            <div class = "button-area">
+                <input type="submit" value = "送信する" class = "submit" >
+            </div>
+        </form>
+
+   </div>
+</body>
+</html>
