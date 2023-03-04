@@ -12,12 +12,6 @@
     background-color: #080808;
 }
 
-/* .link{
-    color: white;
-    border-bottom: 3px solid #0000EE;
-
-} */
-
 nav{
     display: flex;
     /* align-items: center; */
@@ -72,6 +66,13 @@ a:hover{
 .btn:hover{
     transform: scale(1.2);
     border-radius:20px;
+}
+
+.buttonalign{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    gap: 10px;
 }
 
 .content{
@@ -180,7 +181,6 @@ h4{
 
 .button{
     background-color: lightseagreen;
-    /* background-color: orange; */
     padding: 13px 30px;
     color:white;
     font-weight: bold;
@@ -199,7 +199,6 @@ h4{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    
 }
 
 .multiButton p{
@@ -238,10 +237,10 @@ h4{
 }
 
 .card{
-    height: 390px;
+    height: 450px;
     width:365px;
     background-color: #191919;
-    padding: 10px 35px;
+    padding: 5px 35px;
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
@@ -250,8 +249,7 @@ h4{
 
 .card i{
     color: lightseagreen;
-    /* color:orange; */
-    font-size: 40px;
+    font-size: 30px;
     margin: 15px 0;
 }
 
