@@ -98,6 +98,12 @@ h1{
     font-size: 75px;
 }
 
+h2{
+    color:white;
+    font-size: 30px;
+    margin-bottom:50px;
+}
+
 h3{
     color:white;
     font-size: 25px;
@@ -108,6 +114,20 @@ h4{
     color:white;
     letter-spacing: 2px;
     font-size: 20px;
+}
+
+.companyInfo * {
+    margin-bottom: 0px;
+}
+
+.developmentInfo * {
+    color:white;
+    margin-bottom: 0px;
+}
+
+.development{
+    padding-left: 40px;
+    margin-bottom: 10px;
 }
 
 .newsletter form{
